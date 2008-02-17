@@ -1,0 +1,8 @@
+Sin - The lazy Blogging engine in Sinatra
+
+Based on a conversation with Dan Benjamin, I decided to see how hard it would be to get XMLRPC (MetaWeblog API) working on a minimal site.
+As of right now (2008-02-17), it has:
+  * posting by anyone through MetaWeblog api (point blog editor at http://site/xml)
+  * uploads with the MetaWeblog api (only small-ish files, bug with Rack or something)
+  * hAtom
+  * A single file for the whole thing
